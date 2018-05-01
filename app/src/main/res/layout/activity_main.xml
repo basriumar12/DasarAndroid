@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorhijau"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context="info.blogbasbas.androiddasar.MainActivity">
+        <!--
+    ukuran selain textview bisa pakai DP
+    textview untuk textsize makai sp
+
+    attribut untuk membuat widget ke tengah
+    android:gravity ="center"
+    syarat :
+    android:layout_width="match_parent"
+
+    android:layout_gravity="center"
+    syarat
+     android:layout_width="wrap_content"
+    -->
+    <TextView
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:text="App Pertama"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimary"
+        android:text="textview kedua"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_gravity="center"
+        android:text="Simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:text="coba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:background="@color/colorAccent"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:text="coba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="username"
+            android:textSize="10sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="passsword"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

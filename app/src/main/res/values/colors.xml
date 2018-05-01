@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    tiga gambar utama tidak bisa di ganti namanya
+
+    cara manggil color @color/colrhijau
+    -->
+    <color name="colorPrimary">#1738f2</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorhijau">#40ff69</color>
+</resources>
